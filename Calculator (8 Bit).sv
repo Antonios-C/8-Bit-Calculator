@@ -1,13 +1,12 @@
 module top (
-  // I/O ports
+
   input  logic hz100, reset,
   input  logic [20:0] pb,
   output logic [7:0] left, right,
          ss7, ss6, ss5, ss4, ss3, ss2, ss1, ss0,
   output logic red, green, blue,
 
-  // UART ports
-  output logic [7:0] txdata,
+   output logic [7:0] txdata,
   input  logic [7:0] rxdata,
   output logic txclk, rxclk,
   input  logic txready, rxready
@@ -48,8 +47,8 @@ output logic [31:0] p
 ); 
 
 logic [31:0] accum;
-logic [31:0] atmp; // copy of a
-logic [31:0] btmp; // copy of b
+logic [31:0] atmp; 
+logic [31:0] btmp; 
 logic [31:0] num;
 logic [31:0] tt;
 always_ff @(posedge clk) begin 
@@ -71,7 +70,7 @@ assign p = accum;
 
 endmodule
 
-module bcdadd8( ////WORKING
+module bcdadd8( 
 input logic [31:0] a , b,
 input logic ci, 
 output logic co,
@@ -252,7 +251,7 @@ math m (.clk(clk), .reset(stage == 0), .op(op), .a(save), .b(current), .r(result
 endmodule
 
 
-module bcdadd1( ///WORKING
+module bcdadd1( 
 input logic [3:0]a, b,
 input logic ci, 
 output logic co, 
@@ -455,7 +454,7 @@ bcdadd8 ba1(.a(a), .b(ones), .ci(carry), .co(), .s(s));
 
 endmodule
 
-module bcd9comp1( ///WORKING
+module bcd9comp1( 
 input logic [3:0] in, 
 output logic [3:0] out
 );
@@ -481,7 +480,7 @@ endmodule
 
 
 
-module fa4( ///WORKING
+module fa4( 
 input logic [3:0]a, b, 
 input logic ci, 
 output logic co,
@@ -497,7 +496,7 @@ fa b3(.a(a[3]), .b(b[3]), .ci(c3), .s(s[3]), .co(co));
 
 endmodule
 
-module fa( ///WORKING
+module fa( 
 input logic a, b, ci, 
 output logic s, co
 );
@@ -506,5 +505,3 @@ assign s = a ^ b ^ ci;
 assign co = (a&b) | (b&ci) | (a&ci); 
 
 endmodule
-
-
