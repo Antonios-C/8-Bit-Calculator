@@ -13,20 +13,7 @@ module top (
   input  logic txready, rxready
 );
 
-  // Your code goes here...
-  /*
-  logic [31:0] p;
-          bcdmult8x8 bm1(.clk(pb[16]), .reset(pb[17]), .a(32'd4), .b(32'd5), .p(p));
-          ssdec s0(.in(p[3:0]),   .out(ss0[6:0]), .enable(1));
-          ssdec s1(.in(p[7:4]),   .out(ss1[6:0]), .enable(1));
-          ssdec s2(.in(p[11:8]),  .out(ss2[6:0]), .enable(1));
-          ssdec s3(.in(p[15:12]), .out(ss3[6:0]), .enable(1));
-          ssdec s4(.in(p[19:16]), .out(ss4[6:0]), .enable(1));
-          ssdec s5(.in(p[23:20]), .out(ss5[6:0]), .enable(1));
-          ssdec s6(.in(p[27:24]), .out(ss6[6:0]), .enable(1));
-          ssdec s7(.in(p[31:28]), .out(ss7[6:0]), .enable(1));
-  
-  */
+ 
   logic ne;
   logic [6:0]inter;
   logic [4:0] keycode;
