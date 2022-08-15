@@ -5,4 +5,4 @@ Simulator used : https://github.com/norandomtechie/ece270-simulator
 
 
 
-##General Functions
+## General Functions
