@@ -4,9 +4,40 @@ This program was written, tested and compiled within a virtual FPGA simualtor.
 
 Simulator used : https://github.com/norandomtechie/ece270-simulator 
 
-### ![image](https://user-images.githubusercontent.com/96555013/184577970-af3108cf-ae28-4a91-94b9-fab55b79608c.png)
+## Image of the Simulator: 
+![image](https://user-images.githubusercontent.com/96555013/184577970-af3108cf-ae28-4a91-94b9-fab55b79608c.png)
 
 
 
 ## General Functions
+
+The calculator can add, subtract and multiply two 8 bit numbers. The two numbers are initialized by the user through the use of the number/character pad. 
+1) Buttons 0-9 are used to indicate wanted input numbers for calculator
+
+2) Button "Y" indicates addition between the two numbers 
+
+3) Button "Z" indicates subtraction between the two numbers
+
+4) Button "X" indicates multiplication between the two numbers
+
+5) Button "W" will display the result of the above operations. 
+
+6) To reset calculator, press and hold (shift left click) buttons 3-0-"W".
+
+
+
+
+
+# To start:
+Initialize the first number, following that press the desired operation button and enter the second number. Lastly press "W" to get answer. 
+
+# Addition
+
+556 + 555
+
+https://user-images.githubusercontent.com/96555013/184580237-845cb81c-32f0-47c6-a85f-9815286cc3ec.mp4
+
+
+
+
 
