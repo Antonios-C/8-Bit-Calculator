@@ -1,6 +1,6 @@
 # 8-Bit-Calculator
 
-This program was written, tested and compiled within a virtual FPGA simulator. 
+This program was written, tested and compiled within a virtual 7 segment display FPGA simulator. 
 
 Simulator used : https://github.com/norandomtechie/ece270-simulator 
 
