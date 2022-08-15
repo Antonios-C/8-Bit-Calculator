@@ -33,11 +33,17 @@ Initialize the first number, following that press the desired operation button a
 
 # Addition
 
-556 + 555
+#### 556 + 555
 
 https://user-images.githubusercontent.com/96555013/184580237-845cb81c-32f0-47c6-a85f-9815286cc3ec.mp4
 
+# Subtraction
 
+#### 556 - 555
+
+https://user-images.githubusercontent.com/96555013/184580908-41980199-7183-42bc-b6d1-d1d972f0c931.mp4
+
+#### 50 - 100
 
 
 
