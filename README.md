@@ -1,5 +1,8 @@
-#### 8-Bit-Calculator
-### 8-Bit-Calculator
-## 8-Bit-Calculator
 # 8-Bit-Calculator
-Hello
+
+This program was written, tested and compiled within a virtual FPGA simualtor. 
+Simulator used : https://github.com/norandomtechie/ece270-simulator 
+
+
+
+##General Functions
