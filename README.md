@@ -21,8 +21,8 @@ The calculator can add, subtract and multiply two 8 bit numbers. The two numbers
 4) Button "X" indicates multiplication between the two numbers
 
 5) Button "W" will display the result of the above operations. 
-
-6) To reset calculator, press and hold (shift left click) buttons 3-0-"W".
+   - For multiplication "W" needs to be pressed 10 times. Addition/Subtraction 1 time
+6) To reset calculator, press and hold (shift left click) buttons 3-0-"W"
 
 
 
@@ -51,7 +51,10 @@ https://user-images.githubusercontent.com/96555013/184581374-321dea5d-d797-4992-
 
 #### 25 * 25 
 
-https://user-images.githubusercontent.com/96555013/184581813-77ec4b48-4c6e-45f7-baac-5bb7491273e8.mp4
+https://user-images.githubusercontent.com/96555013/184582553-a79e0e4d-711e-47cb-bf3d-6c01ea58faf5.mp4
 
+#### -5 * 5
+
+https://user-images.githubusercontent.com/96555013/184582534-f4ad4a53-df68-4637-9d06-f304a883d8fd.mp4
 
 
